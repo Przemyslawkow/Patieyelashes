@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/lash.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.wraper {
+  display: flex;
+  justify-content: center;
+  width: 1500px;
+}
+header {
+  font-size: 30px;
+  margin-top: 10px;
+  position: absolute;
+}
+nav {
+  display: inline-flex;
+  margin-top: 95px;
+}
+h2 {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin: 0 2px;
+  padding: 5px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+h2:hover {
+  transform: scale(1.1);
+}
+h3 {
+  padding: 5px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.home,
+.aboutme,
+.pricelist,
+.gallery,
+.contact {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.5);
+  height: 50%;
+  margin-top: 150px;
+  position: absolute;
+  text-align: center;
+  width: 454px;
+}
+footer {
+  position: absolute;
+  margin-top: 94vh;
+}
+.certy {
+  position: absolute;
+  margin: 20px 24% 0;
+  border-radius: 15px;
+  box-shadow: 0 0 48px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: block;
+  max-height: 170px;
+  max-width: 270px;
+  transition: transform 0.3s;
+}
+.certy:hover {
+  transform: scale(1.1);
+}
+input,
+textarea {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 48px 2px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  text-align: center;
+  width: 80%;
+}
+.button {
+  cursor: pointer;
+}
+.certypopup {
+  align-content: center;
+  animation: fadeIn 0.3s;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.certypop__img {
+  max-height: 80%;
+  max-width: 80%;
+}
+.certypopup.hidden {
+  display: none;
+}
+.certypopup__close {
+  background-color: transparent;
+  color: #fff;
+  font-size: 100px;
+  position: fixed;
+  right: 80px;
+  top: 21px;
+  border: none;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .home,
+  .aboutme,
+  .pricelist,
+  .gallery,
+  .contact {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.5);
+    height: 50%;
+    margin-top: 270px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+}

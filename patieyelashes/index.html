@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patieyelashes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wraper">
+      <header>
+        <h1><b>Pati Eyelashes</b></h1>
+      </header>
+      <nav class="mainmenu">
+        <a class="home__button" href="#stronagłówna"><h2>Strona Główna</h2></a>
+        <a class="aboutme__button" href="#omnie"><h2>O mnie</h2></a>
+        <a class="pricelist__button" href="#cennik"><h2>Cennik</h2></a>
+        <a class="gallery__button" href="#galeria"><h2>Galeria</h2></a>
+        <a class="contact_button" href="#kontakt"><h2>Kontakt</h2></a>
+      </nav>
+      <div class="home">
+        <h3>Strona Główna</h3>
+        <b>Profesjonalne przedłużanie i zagęszczanie rzęs metodami 1:1 2-3D</b>
+      </div>
+      <div class="aboutme hidden">
+        <h3>O mnie</h3>
+        <b
+          >Ukończyłam kurs w firmie Oh la lash Monika Sikorska w zakresie
+          przedłużania i zagęszczania rzęs metodami 1:1 2-3D</b
+        >
+        <img tabindex="0" class="certy" src="images/certyfikat.jpg" alt="certyfikat" />
+        <div class="certypopup hidden">
+          <button aria-label="Zamknij popup" class="certypopup__close">
+            x
+          </button>
+          <img src="images/certyfikat.jpg" alt="" class="certypop__img" />
+        </div>
+      </div>
+      <div class="pricelist hidden">
+        <h3>Cennik</h3>
+        <b>Cennik jeszcze nie ustalony</b>
+      </div>
+      <div class="gallery hidden">
+        <h3>Galeria</h3>
+        <b>Na razie brak zdjęć</b>
+      </div>
+      <div class="contact hidden">
+        <h3>Kontakt</h3>
+        <b>Patrycja Deorowicz</b><br />
+        <a href="tel:000000000"><b>telefon: 000000000</b></a>
+        <form>
+          <div class="form_input-container">
+            <label for="mail">Twój e-mail*</label>
+            <input
+              id="mail"
+              name="mail"
+              type="mail"
+              placeholder="Wpisz swój adres"
+            />
+          </div>
+          <div class="form_input-container">
+            <label for="msg">Twoja wiadomość*</label>
+            <textarea
+              id="msg"
+              name="msg"
+              rows="5"
+              placeholder="Wpisz wiadomość"
+            ></textarea>
+          </div>
+          <input class="button" value="Wyślij" type="submit" /></button>
+        </form>
+      </div>
+      <footer>developed by Przemysław Kowalczyk</footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
