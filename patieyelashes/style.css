@@ -59,18 +59,18 @@ a {
   width: 454px;
 }
 footer {
-  position: absolute;
   margin-top: 94vh;
+  position: absolute;
 }
 .certy {
-  position: absolute;
-  margin: 20px 24% 0;
   border-radius: 15px;
   box-shadow: 0 0 48px 4px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   display: block;
+  margin: 20px 24% 0;
   max-height: 170px;
   max-width: 270px;
+  position: absolute;
   transition: transform 0.3s;
 }
 .certy:hover {
@@ -111,13 +111,13 @@ textarea {
 }
 .certypopup__close {
   background-color: transparent;
+  border: none;
   color: #fff;
+  cursor: pointer;
   font-size: 100px;
   position: fixed;
   right: 80px;
   top: 21px;
-  border: none;
-  cursor: pointer;
 }
 .hidden {
   display: none;
@@ -142,8 +142,8 @@ textarea {
   }
   nav {
     display: block;
-    text-align: center;
     padding-top: 42px;
+    text-align: center;
   }
   header {
     font-size: 30px;
